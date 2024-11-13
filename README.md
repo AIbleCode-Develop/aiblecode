@@ -1,4 +1,4 @@
-# AibleCode
+# AIbleCode
 
 ## 技術スタック
 
@@ -9,7 +9,6 @@
     <img src="https://img.shields.io/badge/React-gray?logo=react">
     <img src="https://img.shields.io/badge/TailwindCSS-gray?logo=tailwindcss" alt="TailwindCSS"/>
 </p>
-<br/>
 
 ### バックエンド技術
 
@@ -19,6 +18,7 @@
 </p>
 
 ### インフラ技術
+
 <p style="display: inline">
     <img src="https://img.shields.io/badge/AWS Amplify-Gen 2-blue?logo=awsamplify" alt="AWS Amplify"/>
 </p>
@@ -44,3 +44,7 @@
 <img src="docs/images/branch-strategy.png">
 
 参考資料：[Zenn：小規模チーム開発のブランチ戦略を考える（GitHub Flowベース）](https://zenn.dev/gnz/articles/6674530f61cfbe)
+
+## ライセンス
+
+本プロジェクトは **MIT License** の元で行われます。詳細は [LICENSE](LICENSE) を参照してください。
