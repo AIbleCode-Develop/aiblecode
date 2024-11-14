@@ -29,27 +29,21 @@
 // あとで作成します
 
 ## ブランチ戦略
+GitHub Flow に従ってブランチを管理する。
 
 - **mainブランチ** （`main`）
   - 本番にデプロイするモジュールを作成するメインとなるブランチ
 
-- **hotfixブランチ** （`hotfix`） 
-  - 致命的なバグが発生した際に緊急で修正を加えるためのブランチ
-  - `main`ブランチと進行中の`release`ブランチに変更をマージする
-
-- **releaseブランチ** （`releace/?`）
-  - リリース対象の変更がマージされたブランチ
-  - `main`ブランチから作成され、リリースのタイミングで`main`ブランチにマージ、削除される
-  - 開発環境でのテストに使用する
-  - Github Flowの統合ブランチと似た用途だが、リリースごとに１つという特性がある
-
-- **featureブランチ** （`feature/?/?`） 
+- **featureブランチ** （`feature/?`） 
   - 機能開発を行うブランチ
-  - `release`ブランチから派生し、`release`ブランチのマージ時点で削除する
+  - `main`ブランチから派生し、`release`ブランチのマージ時点で削除する
+  - 最新の`main`ブランチから開発ができるよう、作業前には必ず`main`ブランチからプルする
 
-<img src="docs/images/branch-strategy.png">
+<img src="docs/images/branch-strategy-img.png">
 
-参考資料：[Zenn：小規模チーム開発のブランチ戦略を考える（GitHub Flowベース）](https://zenn.dev/gnz/articles/6674530f61cfbe)
+**【参考記事】**
+- Qiita : [GitHub Flowとは](https://qiita.com/tatane616/items/aec00cdc1b659761cf88)
+- GitHub : [GitHubフロー](https://docs.github.com/ja/get-started/using-github/github-flow)
 
 ## 貢献ガイドライン
 
