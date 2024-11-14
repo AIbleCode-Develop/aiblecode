@@ -1,5 +1,9 @@
 # AIbleCode
 
+自動ジャッジ機能と生成AI技術を活用した、コードレビュー機能付きのプログラミング学習を行うWebサービスです。
+
+<img src="docs/images/prototype-snapshot.png">
+
 ## 技術スタック
 
 #### フロントエンド技術
@@ -38,7 +42,7 @@ GitHub Flow に従ってブランチを管理する。
   - `main`ブランチから派生し、`release`ブランチのマージ時点で削除する
   - 最新の`main`ブランチから開発ができるよう、作業前には必ず`main`ブランチからプルする
 
-<img src="docs/images/branch-strategy-img.png">
+<img src="docs/images/branch-strategy.png">
 
 **【参考記事】**
 - Qiita : [GitHub Flowとは](https://qiita.com/tatane616/items/aec00cdc1b659761cf88)
@@ -47,7 +51,6 @@ GitHub Flow に従ってブランチを管理する。
 ## 貢献ガイドライン
 
 - 新しい機能は`feature`ブランチで開発してください。
-- バグ修正は緊急度に応じて`hotfix`ブランチで行います。
 - プルリクエストは小さい単位で出し、必ずコードレビューを受けてからマージします。
 
 ## ライセンス
