@@ -14,7 +14,6 @@
 
 <p style="display: inline">
     <img src="https://img.shields.io/badge/Next.js-gray?logo=nextdotjs" alt="Next.js"/>
-    <img src="https://img.shields.io/badge/MySQL-gray?logo=mysql" alt="MySQL"/>
 </p>
 
 #### インフラ技術
