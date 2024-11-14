@@ -1,35 +1,33 @@
 # AIbleCode
 
-自動ジャッジ機能と生成AI技術を活用した、コードレビュー機能付きのプログラミング学習を行うWebサービスです。
-
-<img src="docs/images/prototype-snapshot.png">
+これは [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) で開始された [Next.js](https://nextjs.org) プロジェクトです。
+自動ジャッジ機能と生成AI技術を活用した、コードレビュー機能付きのプログラミング学習サービスです。
 
 ## 技術スタック
-
-#### フロントエンド技術
 
 <p style="display: inline">
     <img src="https://img.shields.io/badge/TypeScript-gray?logo=typescript" alt="TypeScript"/>
     <img src="https://img.shields.io/badge/React-gray?logo=react">
     <img src="https://img.shields.io/badge/TailwindCSS-gray?logo=tailwindcss" alt="TailwindCSS"/>
-</p>
-
-#### バックエンド技術
-
-<p style="display: inline">
     <img src="https://img.shields.io/badge/Next.js-gray?logo=nextdotjs" alt="Next.js"/>
 </p>
 
-#### インフラ技術
-
-<p style="display: inline">
-    <img src="https://img.shields.io/badge/AWS Amplify-Gen 2-blue?logo=awsamplify" alt="AWS Amplify"/>
-</p>
 
 ## セットアップ
 
-<!-- TODO: セットアップ方法を記述する -->
-// あとで作成します
+以下のコマンドで開発用サーバーを起動します。:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+[http://localhost:3000](http://localhost:3000) を開くことで、Webサイトを見ることができます。
 
 ## ブランチ戦略
 GitHub Flow に従ってブランチを管理する。
